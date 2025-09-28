@@ -1,3 +1,4 @@
+/* ------------- Reset ------------- */
 *{
     margin: 0;
     padding: 0;
@@ -6,13 +7,15 @@
 
 /* ------------- Header ------------- */
 header{
-    width= 100%;
-    height: 100vh;
-    background-image: url(../image/Ya-Edmond.png);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    background: #1d8af6;
+    background-image: url(../image/);
     background-position: center;
     background-size: cover;
 
-    
 }
 
 .menu{
@@ -20,8 +23,59 @@ header{
     justify-content: space-evenly;
     justify-items: center;
     list-style: none;
+    
 }
-nav li a {
+
+.menu li a{
+    color: #eef1f2;
+    font-size: 0,85rem;
+    font-weight: 500;
+    
+
+}
+
+    
+.title{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(234, 234, 239);
+}
+.main-title{
     color: #fff;
-    font-size: 42px;
+    font-size: 5rem;
 }
+
+.sub-title{
+    color: #fff;
+    font-size: 4rem;
+    
+}
+
+#diplomes{
+    display: flex;
+    flex-direction: column;
+}
+
+.title_section{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.title_section h2{
+    font-size: 4.25rem;
+    
+}
+
+.diplome_list{
+    margin: 5% auto;
+    font-size: 1.5rem;
+    border: 1px solid #eb0c0c;
+    width:75%;
+}
+
+.diplome_list ul li{
+    list-style: none;
+}
+
+    
